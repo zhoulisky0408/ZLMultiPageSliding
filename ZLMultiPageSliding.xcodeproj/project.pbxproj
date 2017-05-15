@@ -19,6 +19,7 @@
 		33C28E241EC5B2A20023E7A7 /* ZLThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C28E231EC5B2A20023E7A7 /* ZLThirdViewController.m */; };
 		33C28E261EC9470A0023E7A7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 33C28E251EC9470A0023E7A7 /* Podfile */; };
 		33C28E2B1EC94C330023E7A7 /* UIColor+TORExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C28E2A1EC94C330023E7A7 /* UIColor+TORExtensions.m */; };
+		33C28E301EC9BB360023E7A7 /* effect_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C28E2F1EC9BB360023E7A7 /* effect_1.png */; };
 		C7DA44B05A87A66552E3C5E1 /* Pods_ZLMultiPageSliding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF42257D07E8B02261859B21 /* Pods_ZLMultiPageSliding.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		33C28E271EC9499E0023E7A7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		33C28E291EC94C330023E7A7 /* UIColor+TORExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TORExtensions.h"; sourceTree = "<group>"; };
 		33C28E2A1EC94C330023E7A7 /* UIColor+TORExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TORExtensions.m"; sourceTree = "<group>"; };
+		33C28E2F1EC9BB360023E7A7 /* effect_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = effect_1.png; sourceTree = "<group>"; };
 		DF42257D07E8B02261859B21 /* Pods_ZLMultiPageSliding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLMultiPageSliding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 		33C28DC81EC5A82D0023E7A7 = {
 			isa = PBXGroup;
 			children = (
+				33C28E2E1EC9BAC20023E7A7 /* screenshots */,
 				33C28E251EC9470A0023E7A7 /* Podfile */,
 				33C28DD31EC5A82D0023E7A7 /* ZLMultiPageSliding */,
 				33C28DED1EC5A82D0023E7A7 /* ZLMultiPageSlidingUITests */,
@@ -157,6 +160,14 @@
 				33C28E2A1EC94C330023E7A7 /* UIColor+TORExtensions.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		33C28E2E1EC9BAC20023E7A7 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				33C28E2F1EC9BB360023E7A7 /* effect_1.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 		44EA837870C1209237919C4B /* Pods */ = {
@@ -261,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33C28E301EC9BB360023E7A7 /* effect_1.png in Resources */,
 				33C28DE41EC5A82D0023E7A7 /* LaunchScreen.storyboard in Resources */,
 				33C28DE11EC5A82D0023E7A7 /* Assets.xcassets in Resources */,
 				33C28E261EC9470A0023E7A7 /* Podfile in Resources */,

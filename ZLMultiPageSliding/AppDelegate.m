@@ -28,7 +28,7 @@
     ZLThirdViewController *thirdVc = [[ZLThirdViewController alloc] init];
     ZLFirstViewController *fff = [[ZLFirstViewController alloc] init];
     
-    ZLMultiPageViewController *multiPageVC = [[ZLMultiPageViewController alloc] initWithTitleArray:@[@"一",@"二",@"三",@"四"] pages:@[firstVc, secondVc, thirdVc,fff]];
+    ZLMultiPageViewController *multiPageVC = [[ZLMultiPageViewController alloc] initWithTitleArray:@[@"第一个",@"第二个",@"第三个",@"第四个"] pages:@[firstVc, secondVc, thirdVc,fff]];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:multiPageVC];
     self.window.rootViewController = navigationController;
     
