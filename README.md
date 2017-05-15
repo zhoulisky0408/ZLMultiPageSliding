@@ -5,4 +5,4 @@
 iOS 9.0+
 
 演示截屏如下
-![image](https://github.com/zhoulisky0408/ZLMultiPageSliding/screenshots/effect_1.png)
+![image](https://raw.githubusercontent.com/zhoulisky0408/ZLMultiPageSliding/master/screenshots/effect_1.png)
